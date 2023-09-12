@@ -1,0 +1,234 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    padding: 0px;
+    font-family: 'Lobster', cursive;
+    color: black;
+    font-size: 50px;
+}
+
+.pheading {
+    padding: 0px;
+    font-size: 25px;
+}
+
+.yelh2 {
+    color: yellow;
+    font-size: 25px;
+}
+
+nav {
+    text-align: right;
+    background-color: #32435f;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: right;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav a {
+    color: pink;
+    padding: 15px;
+}
+
+nav a:hover {
+    color: white
+}
+
+footer {
+    background-color: #32435f;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    color: pink;
+    padding: 15px;
+}
+
+footer a:hover{
+    color: white;
+}
+
+.top {
+    background-color: darkgray;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+    background-size: cover;
+    padding: 20px;
+}
+
+.top nav {
+    padding: 100px
+}
+
+.bottom {
+    text-align: center;
+    background-color: #8f8681;
+    background-color: #E1DCD9;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.one-col {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    width: 100%;   
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.card {
+    outline: 2px solid darkgray;
+    padding: 30px;
+    justify-content: space-between; 
+    background-color: lightgray;
+    
+}
+
+.card label {
+    justify-content: left;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 5px #ccc;
+
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 60px;
+    grid-gap: 60px;
+}
+
+.languages {
+    display: grid;
+    grid-template-columns: 1fr;
+    list-style: none;
+
+}
+
+.languages li {
+    padding: 10px;
+    text-align: left;
+}
+.exp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+}
+.exp dl {
+    padding: 10px;
+    text-align: left;
+}
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    padding: 30px;
+}
+
+.mover {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+dt {
+    padding:10px;
+}
+
+dd {
+    padding: 10px;
+}
+
+.hrindex {
+    border-top: 3px dashed #32435f;
+    border-radius: 5px;
+}
+
+.hrContact {
+    border-top: 3px dotted #32435f;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.bodyConnect  {
+    background-color: #E1DCD9;
+    text-align: center;
+}
+
+.area {
+    width: 400px;
+    height: 75px;
+    justify-content: center;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    justify-content: center;
+}
+
+input[type="submit"] {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 405px;
+}
+
+label {
+    text-align: center;
+}
+.two-form {
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+}
+
+.computer {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    
+}
+
+.lakers {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 70px;
+    right: 200px;
+}
+
+.me {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
